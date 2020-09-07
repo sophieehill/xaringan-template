@@ -13,6 +13,3 @@ Colors and fonts are all easily customizable. The [Xaringanthemer](https://pkg.g
 
 Here is what the output looks like: 
 
-
-<iframe width="800" height="600" src="https://github.com/sophieehill/xaringan-template/blob/master/xaringan-template-output.pdf">
-</iframe>
