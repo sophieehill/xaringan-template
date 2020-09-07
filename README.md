@@ -11,4 +11,8 @@ remotes::install_github('yihui/xaringan')
 
 Colors and fonts are all easily customizable. The [Xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/) package allows you to add custom CSS directy in RMarkdown!
 
-Here is what the output looks like: ![Output](https://github.com/sophieehill/xaringan-template/blob/master/xaringan-template-output.pdf)
+Here is what the output looks like: 
+
+
+<iframe width="800" height="600" src="https://github.com/sophieehill/xaringan-template/blob/master/xaringan-template-output.pdf">
+</iframe>
