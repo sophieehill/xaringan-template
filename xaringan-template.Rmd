@@ -1,0 +1,75 @@
+---
+output: 
+  xaringan::moon_reader:
+    css: ["xaringan-themer.css", "mycss.css"]
+    seal: false 
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_light(
+  base_color = "#23395b",
+  header_font_google = google_font("News Cycle"),
+  text_font_google   = google_font("Noto serif", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  base_font_size = "20px",
+  text_font_size = "1.4rem", # increased from 1rem in default
+  header_h1_font_size = "2.75rem",
+  header_h2_font_size = "2.25rem",
+  header_h3_font_size = "1.75rem",
+  # save colors so you can check text color inline (e.g. ".red[this text will be red]")
+  colors = c(
+  red = "#f34213",
+  purple = "#3e2f5b",
+  orange = "#ff8811",
+  green = "#136f63",
+  white = "#FFFFFF")
+)
+
+# save additional CSS
+# this is a container used to align details (Name/Date) to bottom-right on the title slide
+extra_css <- list(
+  ".bottom" = list(
+    "position" = "fixed",
+    "text-align" = "right",
+    "font-family" = "\"Fira Mono\"", 
+    "line-height" = 0.7,
+    "right" = 0,
+    "bottom" = 0,
+    "padding-right" = "100px",
+    "padding-bottom" = "100px"
+    )
+  )
+
+# save to a CSS file (note: include in YAML)
+style_extra_css(css = extra_css, outfile = "mycss.css")
+
+
+```
+
+class: title-slide
+
+ ## Title
+### A fascinating subtitle
+
+<div class="bottom">
+<p> My Name </p>
+<p> My Institution </p>
+<p> Prepared for Conference X, on Date </p>
+
+</div>
+
+
+---
+
+## Here is an example slide
+
+- with
+- bullet
+- points
+
