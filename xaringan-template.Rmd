@@ -73,3 +73,8 @@ class: title-slide
 - bullet
 - points
 
+Modifying the text color is easy with preset colors.
+
+Here is some text .red[in red]!
+
+
